@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing Page Katalog Unit Usaha HMP-TI (ITS) - Solusi kebutuhan F&B, percetakan & dokumen, konsinyasi mahasiswa, dan jasa kreatif digital di lingkungan kampus Institut Teknologi Sepuluh Nopember.">
+    <meta name="theme-color" content="#002347">
+    <title>Katalog Unit Usaha HMP-TI ITS | Solusi Kebutuhan Kampus & Kreativitas Mahasiswa</title>
+
+    <!-- Google Fonts: Poppins (Clean, Modern & Professional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet Eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================================================
+         HEADER & NAVBAR
+         Bagian navigasi utama dengan logo HMP-TI dan menu link responsif
+         ========================================================================== -->
+    <header class="header" id="header">
+        <div class="container navbar-container">
+            <!-- Brand / Logo HMP-TI -->
+            <a href="#beranda" class="navbar-logo" aria-label="Beranda Katalog HMP-TI ITS">
+                <img src="assets/logo.png" alt="Logo Resmi HMP-TI ITS" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-title">HMP-TI ITS</span>
+                    <span class="logo-subtitle">Unit Usaha Mahasiswa</span>
+                </div>
+            </a>
+
+            <!-- Menu Navigasi Desktop & Mobile -->
+            <nav class="navbar-nav" id="navbar-nav" aria-label="Navigasi Utama">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#beranda" class="nav-link active">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tentang" class="nav-link">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#unit-usaha" class="nav-link">Unit Usaha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#layanan" class="nav-link">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#kontak" class="nav-link">Kontak</a>
+                    </li>
+                </ul>
+                <div class="nav-cta-mobile">
+                    <a href="#unit-usaha" class="btn btn-primary btn-sm">Katalog Lengkap</a>
+                </div>
+            </nav>
+
+            <!-- Tombol CTA Header (Desktop) -->
+            <div class="navbar-actions">
+                <a href="#unit-usaha" class="btn btn-primary btn-header">Jelajahi Katalog</a>
+            </div>
+
+            <!-- Hamburger Button (Mobile) -->
+            <button class="hamburger-btn" id="hamburger-btn" type="button" aria-label="Buka Menu Navigasi" aria-expanded="false" aria-controls="navbar-nav">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================================================
+         MAIN CONTENT
+         ========================================================================== -->
+    <main>
+
+        <!-- ======================================================================
+             1. HERO SECTION
+             Bagian sambutan dengan judul utama (H1), deskripsi, CTA, dan ilustrasi
+             ====================================================================== -->
+        <section class="hero-section" id="beranda">
+            <div class="container hero-container">
+                <!-- Kolom Teks Hero -->
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Departemen Teknik Informatika ITS
+                    </div>
+                    
+                    <!-- Satu-satunya tag H1 pada halaman -->
+                    <h1 class="hero-title">Katalog Unit Usaha HMP-TI: Solusi Kebutuhan Kampus & Kreativitas Mahasiswa</h1>
+
+                    <p class="hero-description">
+                        Pusat layanan terpadu mahasiswa Teknik Informatika ITS yang menghadirkan kebutuhan kuliner, jasa percetakan &amp; dokumen kilat, wadah titip jual konsinyasi, serta produksi jasa kreatif digital profesional.
+                    </p>
+
+                    <!-- Tombol Aksi CTA -->
+                    <div class="hero-cta-group">
+                        <a href="#unit-usaha" class="btn btn-primary btn-lg">
+                            <span>Jelajahi Unit Usaha</span>
+                            <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <polyline points="19 12 12 19 5 12"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#tentang" class="btn btn-outline btn-lg">Tentang Kami</a>
+                    </div>
+
+                    <!-- Statistik / Keunggulan Cepat -->
+                    <div class="hero-features-list">
+                        <div class="hero-feature-item">
+                            <span class="feature-number">4</span>
+                            <span class="feature-label">Unit Usaha Utama</span>
+                        </div>
+                        <div class="hero-feature-divider"></div>
+                        <div class="hero-feature-item">
+                            <span class="feature-number">100%</span>
+                            <span class="feature-label">Karya Mahasiswa</span>
+                        </div>
+                        <div class="hero-feature-divider"></div>
+                        <div class="hero-feature-item">
+                            <span class="feature-number">Ramah</span>
+                            <span class="feature-label">Kantong Mahasiswa</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kolom Visual Hero -->
+                <div class="hero-visual">
+                    <div class="hero-card-wrapper">
+                        <img src="assets/hero.png" alt="Ilustrasi Katalog Unit Usaha HMP-TI ITS" class="hero-img">
+                        
+                        <!-- Floating Badge Dekoratif -->
+                        <div class="floating-card float-top">
+                            <div class="floating-icon">💡</div>
+                            <div class="floating-text">
+                                <strong>Kreatif &amp; Terpercaya</strong>
+                                <span>Dikelola Mahasiswa TI</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-card float-bottom">
+                            <div class="floating-icon">⚡</div>
+                            <div class="floating-text">
+                                <strong>Layanan Responsif</strong>
+                                <span>Solusi Kebutuhan Kampus</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ======================================================================
+             2. TENTANG KAMI
+             Penjelasan singkat mengenai katalog unit usaha HMP-TI
+             ====================================================================== -->
+        <section class="about-section" id="tentang">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <span class="section-tag">Mengenal Kami</span>
+                    <h2 class="section-title">Tentang Katalog Unit Usaha HMP-TI</h2>
+                    <p class="section-subtitle">
+                        Membangun kemandirian organisasi melalui pemberdayaan potensi dan kreativitas mahasiswa di lingkungan Institut Teknologi Sepuluh Nopember.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Narasi Utama -->
+                    <div class="about-narrative">
+                        <h3 class="about-heading">Wadah Kewirausahaan Mandiri Mahasiswa Teknik Informatika</h3>
+                        <p class="about-text">
+                            Katalog Unit Usaha HMP-TI merupakan inisiatif resmi Himpunan Mahasiswa Departemen Teknik Informatika (HMP-TI) ITS. Program ini dirancang untuk menjawab tingginya kebutuhan sivitas akademika kampus akan layanan praktis sehari-hari, sekaligus menjadi laboratorium nyata bagi mahasiswa dalam mengasah jiwa kewirausahaan, manajemen operasional, dan kepemimpinan.
+                        </p>
+                        <p class="about-text">
+                            Melalui empat pilar unit usaha yang terintegrasi, kami berkomitmen menghadirkan produk dan layanan berkualitas dengan harga ramah kantong mahasiswa, alur pemesanan yang mudah, serta pelayanan yang ramah dan berintegritas.
+                        </p>
+                    </div>
+
+                    <!-- Kartu Nilai & Keunggulan -->
+                    <div class="about-values">
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <div class="value-info">
+                                <h4 class="value-title">Integritas &amp; Kualitas</h4>
+                                <p class="value-desc">Standar pelayanan teruji yang mengedepankan kepuasan pelanggan dan transparansi.</p>
+                            </div>
+                        </div>
+
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
+                                    <path d="M12 18V6"></path>
+                                </svg>
+                            </div>
+                            <div class="value-info">
+                                <h4 class="value-title">Harga Ramah Mahasiswa</h4>
+                                <p class="value-desc">Penawaran harga terbaik yang dirancang khusus sesuai dengan anggaran mahasiswa.</p>
+                            </div>
+                        </div>
+
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div class="value-info">
+                                <h4 class="value-title">Kolaborasi Inklusif</h4>
+                                <p class="value-desc">Membuka ruang seluas-luasnya bagi mahasiswa untuk menitipkan produk dan berkarya bersama.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ======================================================================
+             3. UNIT USAHA (4 UNIT WAJIB)
+             Tampilkan empat unit usaha dengan card yang menarik dan konsisten
+             ====================================================================== -->
+        <section class="units-section" id="unit-usaha">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <span class="section-tag">Katalog Utama</span>
+                    <h2 class="section-title">Empat Unit Usaha Unggulan</h2>
+                    <p class="section-subtitle">
+                        Temukan layanan yang sesuai dengan kebutuhan aktivitas akademis, konsumsi harian, dan proyek kreatif Anda di sini.
+                    </p>
+                </div>
+
+                <!-- Grid Card Unit Usaha -->
+                <div class="units-grid">
+
+                    <!-- CARD 1: Unit F&B (Food & Drink) -->
+                    <article class="unit-card" data-category="fnb">
+                        <div class="card-media">
+                            <img src="assets/fnb.jpg" alt="Unit F&B Food and Drink HMP-TI ITS" class="card-img" loading="lazy">
+                            <span class="card-badge">Kuliner &amp; Minuman</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-icon-wrap">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                                    <line x1="6" y1="1" x2="6" y2="4"></line>
+                                    <line x1="10" y1="1" x2="10" y2="4"></line>
+                                    <line x1="14" y1="1" x2="14" y2="4"></line>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Unit F&amp;B (Food &amp; Drink)</h3>
+                            <p class="card-description">
+                                Menyediakan berbagai pilihan makanan lezat, camilan bergizi, dan aneka minuman segar untuk menemani aktivitas perkuliahan serta kebutuhan konsumsi acara kampus.
+                            </p>
+                            <ul class="card-features">
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Aneka Makanan Ringan &amp; Berat
+                                </li>
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Kopi &amp; Minuman Dingin Segar
+                                </li>
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Paket Snack Box Acara Ormawa
+                                </li>
+                            </ul>
+                            <div class="card-action">
+                                <button type="button" class="btn btn-primary btn-block btn-detail" data-unit="fnb" aria-label="Lihat rincian Unit F&B">
+                                    <span>Lihat Detail</span>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 2: Unit Percetakan & Dokumen -->
+                    <article class="unit-card" data-category="percetakan">
+                        <div class="card-media">
+                            <img src="assets/percetakan.jpg" alt="Unit Percetakan dan Dokumen HMP-TI ITS" class="card-img" loading="lazy">
+                            <span class="card-badge">Dokumen &amp; Print</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-icon-wrap">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                                    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                                    <rect x="6" y="14" width="12" height="8"></rect>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Unit Percetakan &amp; Dokumen</h3>
+                            <p class="card-description">
+                                Menyediakan jasa print dokumen warna maupun hitam-putih, fotokopi kilat, jilid skripsi &amp; laporan, serta layanan bantuan pengetikan dan formatting dokumen.
+                            </p>
+                            <ul class="card-features">
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Print Cepat Tugas &amp; Makalah
+                                </li>
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Fotokopi &amp; Jilid (Spiral / Hardcover)
+                                </li>
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Jasa Pengetikan &amp; Formatting Dokumen
+                                </li>
+                            </ul>
+                            <div class="card-action">
+                                <button type="button" class="btn btn-primary btn-block btn-detail" data-unit="percetakan" aria-label="Lihat rincian Unit Percetakan & Dokumen">
+                                    <span>Lihat Detail</span>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 3: Unit Konsinyasi -->
+                    <article class="unit-card" data-category="konsinyasi">
+                        <div class="card-media">
+                            <img src="assets/konsinyasi.jpg" alt="Unit Konsinyasi Titip Jual Produk Mahasiswa HMP-TI ITS" class="card-img" loading="lazy">
+                            <span class="card-badge">Titip Jual Mahasiswa</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-icon-wrap">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Unit Konsinyasi</h3>
+                            <p class="card-description">
+                                Menyediakan fasilitas titip jual barang atau produk kreatif karya mahasiswa ITS, membantu promosi dan display penjualan secara strategis di lingkungan kampus.
+                            </p>
+                            <ul class="card-features">
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Fasilitas Titip Jual Produk Mahasiswa
+                                </li>
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Merchandise &amp; Apparel Resmi Kampus
+                                </li>
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Sistem Pencatatan Bagi Hasil Transparan
+                                </li>
+                            </ul>
+                            <div class="card-action">
+                                <button type="button" class="btn btn-primary btn-block btn-detail" data-unit="konsinyasi" aria-label="Lihat rincian Unit Konsinyasi">
+                                    <span>Lihat Detail</span>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CARD 4: Unit Jasa Kreatif -->
+                    <article class="unit-card" data-category="kreatif">
+                        <div class="card-media">
+                            <img src="assets/jasa-kreatif.jpg" alt="Unit Jasa Kreatif Multimedia HMP-TI ITS" class="card-img" loading="lazy">
+                            <span class="card-badge">Kreatif &amp; Media</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-icon-wrap">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83M16.62 12l-5.74 9.94"></path>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Unit Jasa Kreatif</h3>
+                            <p class="card-description">
+                                Menawarkan layanan desain grafis visual, fotografi profesional, dan videografi sinematik untuk mendukung kepanitiaan, wisuda, organisasi, maupun personal branding.
+                            </p>
+                            <ul class="card-features">
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Desain Grafis (Poster, Feed, Banner)
+                                </li>
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Fotografi Wisuda &amp; Dokumentasi Acara
+                                </li>
+                                <li>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    Produksi &amp; Editing Videografi
+                                </li>
+                            </ul>
+                            <div class="card-action">
+                                <button type="button" class="btn btn-primary btn-block btn-detail" data-unit="kreatif" aria-label="Lihat rincian Unit Jasa Kreatif">
+                                    <span>Lihat Detail</span>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ======================================================================
+             4. LAYANAN
+             Penjelasan singkat mengenai layanan yang tersedia di seluruh unit
+             ====================================================================== -->
+        <section class="services-section" id="layanan">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <span class="section-tag">Nilai Tambah</span>
+                    <h2 class="section-title">Layanan &amp; Standar Kerja Kami</h2>
+                    <p class="section-subtitle">
+                        Kami menjamin kenyamanan setiap pelanggan dengan standar proses layanan yang jelas, profesional, dan dapat diandalkan.
+                    </p>
+                </div>
+
+                <!-- Grid Layanan -->
+                <div class="services-grid">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="service-heading">Kemudahan Pemesanan</h3>
+                        <p class="service-desc">
+                            Pemesanan dapat dilakukan secara langsung di sekretariat HMP-TI maupun secara daring melalui pesan resmi pengelola unit usaha.
+                        </p>
+                    </div>
+
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="service-heading">Pengerjaan Tepat Waktu</h3>
+                        <p class="service-desc">
+                            Kami menghargai tenggat waktu perkuliahan Anda. Layanan percetakan kilat dan jasa kreatif diproses sesuai jadwal yang disepakati.
+                        </p>
+                    </div>
+
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <polyline points="16 11 18 13 22 9"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="service-heading">Kemitraan Terbuka</h3>
+                        <p class="service-desc">
+                            Membuka pintu kolaborasi bagi seluruh mahasiswa Departemen Teknik Informatika ITS yang ingin memasarkan karya terbaiknya.
+                        </p>
+                    </div>
+
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3 class="service-heading">Dukungan Berkelanjutan</h3>
+                        <p class="service-desc">
+                            Konsultasikan kebutuhan Anda bersama pengelola unit usaha untuk mendapatkan solusi paket harga dan pelayanan terbaik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ======================================================================
+             5. KONTAK
+             Informasi kontak resmi kampus tanpa mengarang kontak pribadi palsu
+             ====================================================================== -->
+        <section class="contact-section" id="kontak">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <span class="section-tag">Hubungi Pengelola</span>
+                    <h2 class="section-title">Informasi Kontak &amp; Konsultasi</h2>
+                    <p class="section-subtitle">
+                        Punya pertanyaan seputar layanan atau ingin bermitra dengan unit usaha HMP-TI? Kunjungi sekretariat kami atau kirim pesan melalui formulir berikut.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Kartu Informasi Kontak Resmi Kampus -->
+                    <div class="contact-info-card">
+                        <h3 class="contact-info-title">Sekretariat HMP-TI ITS</h3>
+                        <p class="contact-info-desc">
+                            Layanan berpusat di lingkungan Departemen Teknik Informatika ITS untuk memudahkan akses seluruh sivitas akademika.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-item-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-text">
+                                    <strong>Alamat Lokasi:</strong>
+                                    <span>Gedung Departemen Teknik Informatika, Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC), Institut Teknologi Sepuluh Nopember, Kampus Sukolilo, Surabaya 60111</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-item-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-text">
+                                    <strong>Email Resmi Pengelola:</strong>
+                                    <span>hmpti@its.ac.id / unitusaha.hmpti@gmail.com</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-item-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-text">
+                                    <strong>Jam Operasional Layanan:</strong>
+                                    <span>Senin &ndash; Jumat, 09.00 &ndash; 17.00 WIB (Hari Kerja Kampus)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Catatan Kebijakan Transparansi -->
+                        <div class="contact-note">
+                            <span class="note-badge">Penting</span>
+                            <p class="note-text">
+                                Seluruh transaksi dan perjanjian kerja sama unit usaha dikelola langsung oleh tim kewirausahaan HMP-TI ITS dengan tanda terima resmi.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Formulir Konsultasi / Pesan -->
+                    <div class="contact-form-card">
+                        <h3 class="form-title">Kirim Pesan / Tanya Layanan</h3>
+                        <p class="form-subtitle">Isi formulir di bawah ini untuk mengirimkan pertanyaan atau permintaan informasi unit usaha.</p>
+                        
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="sender-name">Nama Lengkap <span class="required">*</span></label>
+                                <input type="text" id="sender-name" name="name" class="form-input" placeholder="Masukkan nama Anda" required>
+                                <span class="form-error-msg" id="name-error">Nama tidak boleh kosong.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sender-email">Alamat Email <span class="required">*</span></label>
+                                <input type="email" id="sender-email" name="email" class="form-input" placeholder="contoh: nama@student.its.ac.id" required>
+                                <span class="form-error-msg" id="email-error">Masukkan alamat email yang valid.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="target-unit">Pilih Unit Usaha Tujuan <span class="required">*</span></label>
+                                <select id="target-unit" name="unit" class="form-select" required>
+                                    <option value="" disabled selected>-- Pilih salah satu unit usaha --</option>
+                                    <option value="fnb">Unit F&amp;B (Food &amp; Drink)</option>
+                                    <option value="percetakan">Unit Percetakan &amp; Dokumen</option>
+                                    <option value="konsinyasi">Unit Konsinyasi Mahasiswa</option>
+                                    <option value="kreatif">Unit Jasa Kreatif (Desain, Foto &amp; Video)</option>
+                                    <option value="umum">Pertanyaan Umum Lainnya</option>
+                                </select>
+                                <span class="form-error-msg" id="unit-error">Silakan pilih salah satu unit usaha.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sender-message">Pesan / Rincian Kebutuhan <span class="required">*</span></label>
+                                <textarea id="sender-message" name="message" rows="4" class="form-textarea" placeholder="Tuliskan pertanyaan, pesanan, atau kebutuhan Anda secara detail..." required></textarea>
+                                <span class="form-error-msg" id="message-error">Pesan tidak boleh kosong (minimal 10 karakter).</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-submit-contact">
+                                <span>Kirim Pesan</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+                        </form>
+
+                        <!-- Feedback Box Sukses (Tampil via JavaScript) -->
+                        <div class="form-alert-success" id="form-alert-success" role="alert" style="display: none;">
+                            <div class="alert-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                            </div>
+                            <div class="alert-content">
+                                <strong>Pesan Anda Berhasil Terkirim!</strong>
+                                <p>Terima kasih telah menghubungi Unit Usaha HMP-TI ITS. Tim kami akan segera menindaklanjuti pesan Anda melalui email.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==========================================================================
+         FOOTER
+         Nama organisasi HMP-TI dan informasi hak cipta
+         ========================================================================== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <!-- Kolom 1: Informasi Brand Organisasi -->
+            <div class="footer-col footer-col-brand">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Logo HMP-TI ITS" class="footer-logo-img">
+                    <span class="footer-brand-title">HMP-TI ITS</span>
+                </div>
+                <p class="footer-about">
+                    Himpunan Mahasiswa Departemen Teknik Informatika<br>
+                    Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC)<br>
+                    Institut Teknologi Sepuluh Nopember (ITS), Surabaya.
+                </p>
+                <p class="footer-motto">
+                    <em>&ldquo;Mendorong Inovasi Teknologi dan Kemandirian Wirausaha Mahasiswa.&rdquo;</em>
+                </p>
+            </div>
+
+            <!-- Kolom 2: Navigasi Cepat -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Navigasi Halaman</h4>
+                <ul class="footer-links">
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#unit-usaha">Unit Usaha</a></li>
+                    <li><a href="#layanan">Layanan</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+
+            <!-- Kolom 3: Unit Usaha -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Unit Usaha Kami</h4>
+                <ul class="footer-links">
+                    <li><a href="#unit-usaha">Unit F&amp;B (Food &amp; Drink)</a></li>
+                    <li><a href="#unit-usaha">Unit Percetakan &amp; Dokumen</a></li>
+                    <li><a href="#unit-usaha">Unit Konsinyasi</a></li>
+                    <li><a href="#unit-usaha">Unit Jasa Kreatif</a></li>
+                </ul>
+            </div>
+
+            <!-- Kolom 4: Keterangan Praktikum -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Informasi Tugas</h4>
+                <p class="footer-task-info">
+                    Landing Page Katalog Unit Usaha HMP-TI dibuat sebagai pemenuhan Tugas Praktikum Pemrograman Web.
+                </p>
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">Vanilla JS</span>
+            </div>
+        </div>
+
+        <!-- Garis Pemisah & Hak Cipta -->
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p class="footer-copyright">
+                    &copy; 2026 <strong>HMP-TI ITS</strong>. Hak Cipta Dilindungi Undang-Undang. Tugas Praktikum Pemrograman Web.
+                </p>
+                <p class="footer-author">
+                    Departemen Teknik Informatika &bull; Institut Teknologi Sepuluh Nopember
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ==========================================================================
+         MODAL DETAIL UNIT USAHA
+         Pop-up interaktif saat tombol "Lihat Detail" pada card diklik
+         ========================================================================== -->
+    <div class="modal-overlay" id="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-container" id="modal-container">
+            <!-- Tombol Tutup Modal -->
+            <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Tutup jendela detail">
+                &times;
+            </button>
+
+            <!-- Isi Dinamis Modal (Dikelola oleh script.js) -->
+            <div class="modal-header">
+                <span class="modal-badge" id="modal-badge">Kategori Unit</span>
+                <h3 class="modal-title" id="modal-title">Nama Unit Usaha</h3>
+            </div>
+
+            <div class="modal-body">
+                <!-- Media Gambar Modal -->
+                <div class="modal-media">
+                    <img src="assets/fnb.jpg" alt="Detail Unit Usaha" id="modal-img" class="modal-img">
+                </div>
+
+                <!-- Penjelasan Detail -->
+                <div class="modal-text-content">
+                    <h4 class="modal-subtitle">Deskripsi Lengkap</h4>
+                    <p class="modal-description" id="modal-description">
+                        Deskripsi rinci mengenai unit usaha yang dipilih.
+                    </p>
+
+                    <h4 class="modal-subtitle">Layanan &amp; Produk Unggulan</h4>
+                    <ul class="modal-features-list" id="modal-features-list">
+                        <!-- Diisi via JavaScript -->
+                    </ul>
+
+                    <div class="modal-info-box" id="modal-info-box">
+                        <strong class="info-box-title">Keunggulan Bagi Mahasiswa:</strong>
+                        <p class="info-box-text" id="modal-benefit">
+                            Keuntungan dan kemudahan bagi mahasiswa ITS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline" id="modal-btn-close">Tutup</button>
+                <button type="button" class="btn btn-primary" id="modal-btn-contact">
+                    <span>Tanya Unit Ini</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ==========================================================================
+         BACK TO TOP BUTTON
+         Tombol kembali ke atas saat halaman di-scroll
+         ========================================================================== -->
+    <button type="button" class="back-to-top" id="back-to-top" aria-label="Kembali ke atas halaman">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+
+    <!-- Script JavaScript Eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
